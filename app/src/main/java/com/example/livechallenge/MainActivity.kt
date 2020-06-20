@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
 ////
         val set = AnimatorSet()
         set.playTogether(fader, fader1)
-        set.duration = 50
+        set.duration = 0
         set.start()
     }
 
